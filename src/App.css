@@ -2,37 +2,92 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title{
+ background-color: #34495c;
+color: aliceblue;
+font-weight: 500;
+font-size: 50px;
+border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.container{
+display:flex;
   flex-direction: column;
+  align-content: center;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+}
+.add{
+  display: flex;
+  width:100%;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  
+}
+.plusstyle{
+  background-color:green ;
+color:white
+}
+.input{
+  display: flex;
+  align-self: stretch;
+  width:94%;
+  background-color: white;
+  
+  
+}
+.todo{padding: 10px;
+  border: 1px solid grey;
+  display: flex;
+  background-color: #2abb9c;
+justify-content: space-between;
+align-items: center;
+}
+.done{
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #da3748;
+  border : 1px solid #2abb9c;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.inputdone{
+  border-radius: 5px;
+  color:black;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: white;
 }
+.todo1{
+  
+  display: flex;
+justify-content: space-between;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+align-items: center;}
+.todo2{
+  width : 15%;
+  display: flex;
+justify-content: space-between;
+}
+.check{
+  background-color:white;
+  color:white
+}
+.label{
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+.plus{
+ padding: 5px;
+  color:white;
+cursor: pointer;
+}
+.trash{
+  color:green;
+cursor: pointer;
+}
+.edit{
+  color:#da3748;
+cursor: pointer;
 }
